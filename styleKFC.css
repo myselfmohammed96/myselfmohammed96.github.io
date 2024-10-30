@@ -1,0 +1,418 @@
+body{
+    margin:0px;
+    font-family:"Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* Top Menu Bar */
+
+.TopMenuBar{
+    border: none;
+    background-color:white;
+    width: 100%;
+    height: 105px;
+    margin: none;
+    padding: 20px 100px;
+    box-sizing:border-box;
+}
+
+header a{
+    text-decoration: none;
+    color:#202124;
+}
+
+header{
+    display:flex;
+}
+
+#logo{
+    flex:1;
+}
+
+.menu{
+    margin-top:25px;
+}
+
+#menu,#deals{
+    font-weight: bold;
+    font-size:14px;
+}
+
+#MenuOption{
+    flex:1;
+}
+
+header nav{
+    flex:7;
+    display:flex;
+}
+
+nav #menu{
+    flex:1;
+    padding-right:10px;
+    margin-right:40px;
+}
+
+nav #deals{
+    flex:11.5;
+    margin-right: 860px;
+}
+
+/* signin and cart options */
+
+#Signin-cart{
+    
+    flex:1.5;
+    display:flex;
+    
+}
+
+#signin{
+    flex:1;
+    display:flex;
+    
+}
+
+#cart{
+    flex:1;
+    display:inline-block
+}
+
+#signinIcon{
+    position:relative;
+    top:20px;
+}
+
+ #signinText{
+    position:relative;
+    left:34px;
+    bottom: 31px;
+    border-right: 1px solid rgb(207, 207, 207);
+    padding: 7px 20px 7px 0px;
+    font-weight:bolder;
+}
+
+#OrdVal{
+    width: 1.5em;
+    position:relative;
+    left:13px;
+    bottom:1px;
+}
+
+#iconCount{
+    position:relative;
+    bottom:120px;
+    left:55px;
+}
+
+#cartIcon{
+    position:relative;
+    bottom:60px;
+    left:30px;
+    width:3.5em;
+}
+
+/* Order Button Bar */
+
+.OrderBtnBar{
+    border: none;
+    height:67px;
+    margin:0;
+    background-color:#212529;
+    color:#ffff;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:.03em;
+}
+.OrderBtnBar button{
+    text-align:center;
+    background-color:#e4002b;
+    border: none;
+    padding:15px 40px;
+    border-radius:25px;
+    font-size:.9em;
+    color:#ffff;
+    letter-spacing: .01em;    
+}
+
+#ordstuffContainer{
+    width:485px;
+    padding:0px 10px;
+    margin: auto;
+    position: relative;
+    top:10px;
+}
+#ordtext,#ordbtn{
+    display:inline;
+    margin-right:10px;
+}
+
+/* Banner */
+
+.Banner{
+    height:422px;
+    background-image:url('media/web_1440x396px.webp')
+}
+
+/* Main Content */
+
+.browse{
+    display:flex;
+}
+#browse-title{
+    width:200px;
+    height:170px;
+    flex:2;
+}
+
+#browse-title h1{
+    width:9.9em;
+    margin-left: 275px;
+    margin-top:100px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    letter-spacing: .8px;
+}
+
+#horizontal-line{
+    width:200px;
+    height:170px;
+    flex:3.1;
+}
+
+#line{
+    border-bottom:2px solid rgb(207, 207, 207);
+    width :50em;
+    height: 118px;
+}
+
+/* main content(food categories) */
+
+#main{
+    width:100%;
+    padding-bottom:100px;
+}
+
+#main-container{
+    width:79%;
+    margin-left:240px;
+    display:grid;
+    padding-left:40px;
+    padding-top:30px;
+    grid-template-columns:267px 267px 267px 267px;
+    column-gap:23px;
+    row-gap:23px;
+}
+
+.grid{
+    background-color:#f2f2f2;
+    border-radius:4px;
+    width:267px;
+    height:270px;
+    margin-right:none;
+
+}
+
+.grid img{
+    width: 267px;
+    height:200px;
+    margin:0px;
+}
+
+#f-l-img{
+    width:200px;
+}
+
+.categories-link{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+    letter-spacing: .8px;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+}
+.cat-text{
+    position:relative;
+    top:6px;
+
+}
+.cat-text img{
+ width: 30px;
+ height: 14px;
+ position: relative;
+ top:1px;
+ 
+}
+
+.main-2{
+    width: 100%;
+    height: 300px;
+    background-color:#212529;
+    color:white;
+    font-family:"Roboto Medium" "Open Sans" ;
+}
+
+#redstrips{
+    width: 80px;
+    height: 40px;
+    margin-left:227px;
+    margin-right:auto;
+}
+
+.rs{
+    background-color: #EE1C25;
+    width:16.5px;
+    height:100%;
+    display:inline-block;
+    
+}
+
+#s1,#s2{
+    margin-right:10.8px;
+}
+
+#exclusive-offers,#view-all-deals{
+    display:inline-block;
+}
+
+#exclusive-offers p{
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-size:2em;
+    letter-spacing: .8px;
+    width:400px;
+    margin-left:225px;
+}
+
+#view-all-deals{
+    font-size:14px;
+    width:150px;
+    margin-left:600px;
+    position: relative;
+    bottom:9px;
+
+}
+
+/* footer */
+
+#footer{
+    width:100%;
+    height: 330px;
+    background-color:#212529
+}
+
+#footer-menu{
+width:100%;
+height:260px;
+color: white;
+display:flex;
+}
+
+.footer-column{
+    height:200px;
+}
+
+#kfc-footer-logo{
+    flex:1.3;
+}
+
+#footer-logo{
+    margin-left:120px;
+}
+#footer-about{
+    flex:1.1;
+}
+
+#footer-terms{
+    flex:.8;
+}
+
+#footer-food{
+    flex:.8;
+}
+
+#footer-contact{
+    flex:.9;
+}
+
+#footer-location{
+    flex:.9;
+}
+
+#footer-playstore{
+    flex:1;
+}
+
+#footer-appstore{
+    flex:1.35;
+}
+
+.cla-list{
+    list-style-type:none;
+    font-family:"Myriad Pro" Bold;
+
+    font-size:13.5px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+#about{
+    padding-left:35px;
+}
+
+#term{
+    padding-left:4px;
+    
+}
+
+#food{
+    padding-left:12px;
+}
+
+#contact{
+    padding-left:6px
+}
+
+.f-text{
+    text-decoration: none;
+    color:white;
+}
+
+#playstore{
+    position:relative;
+    left:30px;
+    width:120px;
+}
+
+#appstore{
+    width:120px;
+}
+
+#location{
+    color:white;
+    font-size: 12.5px;
+    padding-left:10px;
+}
+
+#footer-social-icons{
+    display:flex;
+    width:100%;
+    height:65px;
+    color:white
+}
+
+#footer-social-icons p{
+    flex:5;
+    text-align: center;
+    font-size: 12px;
+    margin-left:60px;
+    margin-top:22px;
+    position:relative;
+    left:30px;
+}
+
+#footer-social-icons div{
+    flex:1;
+}
+
+#footer-social-icons div img{
+    margin-right:10px;
+    margin-top:22px;
+}
